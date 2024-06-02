@@ -1,4 +1,7 @@
 <template>
+  <div class="background">
+
+  </div>
   <div id="app" class="bg-navy text-white">
     <div class="container q-pa-md">
       <div class="border rounded p-4 mb-4" style="border-radius: 20px;">
@@ -108,6 +111,7 @@ export default {
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
 #app {
+  z-index: 1;
   color: white;
   min-height: 100vh;
   padding: 20px;
@@ -133,11 +137,26 @@ export default {
 }
 
 .mb-3 label{
-  color: white;
+  color: whitesmoke;
 }
 
 .card, .mt-3 {
   display: grid;
 
+}
+.background{
+  background-color: navy;
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-height: 90%;
+  min-width: 1500px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+  object-fit: cover;
+  -webkit-background-size:cover; -moz-background-size:cover; -o-background-size:cover; background-size: cover;
+  filter: brightness(0.8);
 }
 </style>
