@@ -1,0 +1,14 @@
+{
+  "posts": [
+    {
+      "title": "KERJA",
+      "content": "Saya bekerja dari pagi sampai malam",
+      "id": "1"
+    },
+    {
+      "title": "Kuliah",
+      "content": "Saya masih memiliki waktu untuk kuliah",
+      "id": "2"
+    }
+  ]
+}
