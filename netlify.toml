@@ -8,11 +8,5 @@
   publish = "dist"
   targetPort = 8080
 
-[[plugins]]
-  package = "@netlify/plugin-functions-core"
-
-[[plugins]]
-  package = "@netlify/plugin-lambda"
-
 [functions]
   directory = "functions"
